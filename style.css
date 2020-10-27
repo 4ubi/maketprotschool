@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(230, 227, 227);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+header{
+    display: flex;
+    justify-items: center;
+    width: 800px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 4px 4px 0px 0px;
+    background-color: rgb(255, 252, 242);
+}
+.logoText{
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    padding-left: 30px;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(109, 41, 136);
+}
+.menu{
+    display: flex;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 90px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    margin-top: 14px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(113, 60, 182);
+}
+button:hover{
+    background-color: rgb(94, 43, 161) ;
+}
+.lineLogo{
+    position: absolute;
+    width: 800px;
+    height: 4px;
+    top: 59px;
+    border: none;
+    background-color: rgb(113, 60, 182);
+}
+main{
+    display: flex;    
+    margin: 0 auto;
+    width: 800px;
+    height: 1150px;
+    margin-top: 25px;
+    background-color: rgb(255, 252, 242);
+}
+.abook{
+    display: flex;
+    justify-items: flex-start;
+    width: 800px;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.lineBook{
+    position: absolute;
+    width: 450px;
+    height: 3px;
+    top: 170px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(113, 60, 182);
+}
+.textBook{
+    position: absolute;
+    width: 450px;
+    top: 180px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.boxmanga{
+    display: flex;
+    justify-items: flex-end;
+    flex-direction: column;
+    width: 420px;
+    height: 1050px;
+    margin-top: 50px;
+    margin-right: 30px;
+    border-radius: 6px;
+    background-color: rgb(113, 60, 182);
+}
+.manga1{
+    display: flex;
+    flex-direction: column;
+    width: 215px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.img1{
+    width: 180px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.textmanga{
+    margin: 0 auto;
+    padding-top: 10px;
+    font-family: 'Acme', sans-serif;
+}
+.textmanga:hover{
+    color: rgb(113, 60, 182);
+}
+.manga2{
+    display: flex;
+    flex-direction: column;
+    width: 215px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.manga3{
+   display: flex;
+    flex-direction: column;
+    width: 215px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white; 
+}
+.allb{
+    margin: 0 auto;
+    padding-top: 40px;
+    font-family: 'Acme', sans-serif;
+    color: white;
+}
+.allb:hover{
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: rgb(255, 252, 242);
+}
+.linef{
+    display: flex;
+    justify-items: center;
+    width: 800px;
+    height: 4px;
+    margin-top: -20px;
+    border: none;
+    background-color: rgb(113, 60, 182);
+}
+.social{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+.soc{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.textf{
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+}
